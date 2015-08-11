@@ -1,0 +1,28 @@
+{
+  "name": "clapswitch",
+  "description": "Clap twice to toggle relay, powered by tessel",
+  "author": "Daniel Aschwanden <nimdanitro@gmail.com>",
+  "dependencies": {
+    "ambient-attx4": "*",
+    "relay-mono": "*"
+  },
+  "devDependencies": {},
+  "engine": "node >= 0.12.0",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asdaniel/clapSwitch.git"
+  },
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asdaniel/clapSwitch/issues"
+  },
+  "homepage": "https://github.com/asdaniel/clapSwitch#readme"
+}
